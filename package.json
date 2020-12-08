@@ -10,6 +10,9 @@
       "url": "https://youngjuning.js.org"
     }
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "main": "lib/index.js",
   "bugs": {
     "url": "https://github.com/youngjuning/interface-comments-parser/issues"
