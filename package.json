@@ -1,9 +1,20 @@
 {
-  "name": "interface-comments-parser",
+  "name": "@youngjuning/interface-comments-parser",
   "description": "parser typescript interface comments",
-  "version": "2.1.1",
+  "version": "1.0.0",
   "author": "DiamondYuan",
+  "contributors": [
+    {
+      "name": "youngjuning",
+      "email": "youngjuning@aliyun.com",
+      "url": "https://youngjuning.js.org"
+    }
+  ],
   "main": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/youngjuning/interface-comments-parser/issues"
+  },
+  "homepage": "https://github.com/youngjuning/interface-comments-parser#readme",
   "dependencies": {
     "@babel/generator": "^7.3.3",
     "@babel/parser": "^7.3.3",

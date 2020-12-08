@@ -17,13 +17,13 @@ export function mergeFieldMeta(metaList: IMeta[]): IFieldMeta {
 }
 
 export function parserComment(comment: string): IMeta {
-  const lines = comment.match(/@[a-z]* .*/g);
+  const lines = comment.match(/@[a-zA-Z]* .*/g);
   const result: IMeta = {};
   if (!lines || lines.length === 0) {
     return result;
   }
   for (const line of lines) {
-    const data = line.match(/@([a-z]*) (.*)/);
+    const data = line.match(/@([a-zA-Z]*) (.*)/);
     if (data && data[2]) {
       result[data[1]] = data[2].trim();
     }

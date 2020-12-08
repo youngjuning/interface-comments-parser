@@ -1,23 +1,21 @@
-# interface-comments-parser
+# dts-comments-parser
+
+> WIP: This is an initial draft, API is not stable
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 
-[npm-image]: https://img.shields.io/npm/v/interface-comments-parser.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/interface-comments-parser
-[travis-image]: https://img.shields.io/travis/DiamondYuan/interface-comments-parser.svg?style=flat-square
-[travis-url]: https://travis-ci.org/DiamondYuan/interface-comments-parser
-[codecov-image]: https://codecov.io/gh/DiamondYuan/interface-comments-parser/branch/master/graph/badge.svg
-[codecov-url]: https://codecov.io/gh/DiamondYuan/interface-comments-parser
+[npm-image]: https://img.shields.io/npm/v/@youngjuning/interface-comments-parser.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@youngjuning/interface-comments-parser
+[travis-image]: https://img.shields.io/travis/youngjuning/interface-comments-parser.svg?style=flat-square
+[travis-url]: https://travis-ci.org/youngjuning/interface-comments-parser
+[codecov-image]: https://codecov.io/gh/youngjuning/interface-comments-parser/branch/master/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/youngjuning/interface-comments-parser
 
 ```bash
-npm i --save interface-comments-parser
+$ yarn add -D @youngjuning/interface-comments-parser
 ```
-
-## Warning
-
-This is an initial draft, API is not stable
 
 ## Usage
 
@@ -27,18 +25,18 @@ You can use `parse` to parse file.
 
 ```js
 const path = require("path");
-const { parse } = require("interface-comments-parser");
+const { parse } = require("@youngjuning/interface-comments-parser");
 
-parse(path.resolve(__dirname, "./demo.ts"), "Demo");
+parse(path.resolve(__dirname, "./demo.ts"), "DemoProps");
 ```
 
 ### GetFieldMeta
 
 ```js
 const path = require("path");
-const { parse, getFieldMeta } = require("interface-comments-parser");
+const { parse, getFieldMeta } = require("@youngjuning/interface-comments-parser");
 
-const result = parse(path.resolve(__dirname, "./demo.ts"), "Demo");
+const result = parse(path.resolve(__dirname, "./demo.ts"), "DemoProps");
 const meta = result.map(o => getFieldMeta(o, "zh-CN"));
 ```
 
