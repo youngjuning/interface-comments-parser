@@ -1,3 +1,12 @@
+# [3.2.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.1.0...v3.2.0) (2020-12-09)
+
+
+### Bug Fixes
+
+* remove releace | ([6fb3327](https://github.com/youngjuning/interface-comments-parser/commit/6fb3327))
+
+
+
 # [3.1.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.0.0...v3.1.0) (2020-12-09)
 
 
