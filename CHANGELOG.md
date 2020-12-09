@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/youngjuning/interface-comments-parser/compare/v2.1.1...v1.0.0) (2020-12-08)
+# [3.0.0](https://github.com/youngjuning/interface-comments-parser/compare/v2.1.1...v3.0.0) (2020-12-09)
 
 
 ### Features
@@ -34,7 +34,11 @@
 
 
 
-## 1.0.1 (2019-02-25)
+## [1.0.1](https://github.com/youngjuning/interface-comments-parser/compare/v1.0.0...v1.0.1) (2019-02-25)
+
+
+
+# 1.0.0 (2019-02-25)
 
 
 
