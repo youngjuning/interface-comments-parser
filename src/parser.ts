@@ -21,7 +21,6 @@ function generateType(
   }
   return (generate(typeAnnotation).code as string)
     .slice(2)
-    .replace(/\|/g, '\\|')
     .replace(/\n/g, '');
 }
 

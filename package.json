@@ -54,8 +54,7 @@
     "pre-publish": "npm run changelog && npm run build"
   },
   "pre-commit": [
-    "lint",
-    "cov"
+    "lint"
   ],
   "files": [
     "lib"
