@@ -1,4 +1,4 @@
-# dts-comments-parser
+# @youngjuning/interface-comments-parser
 
 > WIP: This is an initial draft, API is not stable
 
