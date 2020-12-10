@@ -10,7 +10,7 @@ import { parseTsInterfaceDeclaration, parseClassDeclaration } from './parser';
 
 export function parse(filePath: string, name: string, isWeb: boolean): IField[] {
   if (isWeb) {
-    require('fs-web').readString(filePath).then((fileStr) => {
+    require('fs-web').readString(filePath).then((fileStr): any => {
       const ast = babelParser.parse(fileStr, {
         sourceType: 'module',
         plugins: ['typescript', 'classProperties']
