@@ -21,8 +21,7 @@
   "dependencies": {
     "@babel/generator": "^7.3.3",
     "@babel/parser": "^7.3.3",
-    "@babel/types": "^7.3.3",
-    "fs-web": "^1.0.1"
+    "@babel/types": "^7.3.3"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.4",
