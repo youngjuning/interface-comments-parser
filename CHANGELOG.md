@@ -1,3 +1,12 @@
+## [3.3.1](https://github.com/youngjuning/interface-comments-parser/compare/v3.4.0...v3.3.1) (2020-12-10)
+
+
+### Features
+
+* use read-file ([3c7e2f8](https://github.com/youngjuning/interface-comments-parser/commit/3c7e2f80782514129b050ed2c6e090df8c07156b))
+
+
+
 # [3.4.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.0...v3.4.0) (2020-12-10)
 
 
