@@ -5,11 +5,11 @@ import {
   isExportNamedDeclaration,
   isClassDeclaration
 } from '@babel/types';
-import fs from 'fs-sync-utils';
+import { read } from 'fs-sync-utils';
 import { parseTsInterfaceDeclaration, parseClassDeclaration } from './parser';
 
 export function parse(filePath: string, name: string): IField[] {
-  const ast = babelParser.parse(fs.read(filePath).toString(), {
+  const ast = babelParser.parse(read(filePath).toString(), {
     sourceType: 'module',
     plugins: ['typescript', 'classProperties']
   });
