@@ -1,7 +1,7 @@
 {
   "name": "@youngjuning/interface-comments-parser",
   "description": "parser typescript interface comments",
-  "version": "3.4.0",
+  "version": "3.3.0",
   "author": "DiamondYuan",
   "contributors": [
     {
@@ -22,7 +22,7 @@
     "@babel/generator": "^7.3.3",
     "@babel/parser": "^7.3.3",
     "@babel/types": "^7.3.3",
-    "read-file-safe": "^1.0.10"
+    "read-file": "^0.2.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.4",
