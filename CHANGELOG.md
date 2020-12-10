@@ -1,3 +1,12 @@
+## [3.3.4](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.3...v3.3.4) (2020-12-10)
+
+
+### Bug Fixes
+
+* fix reference error ([60ae7e8](https://github.com/youngjuning/interface-comments-parser/commit/60ae7e876cd61c8af23327ac691331af6ca85111))
+
+
+
 ## [3.3.3](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.2...v3.3.3) (2020-12-10)
 
 
