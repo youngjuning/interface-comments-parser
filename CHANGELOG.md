@@ -1,3 +1,12 @@
+# [5.1.0](https://github.com/youngjuning/interface-comments-parser/compare/v5.0.0...v5.1.0) (2020-12-10)
+
+
+### Features
+
+* add parseAllInterface ([9787587](https://github.com/youngjuning/interface-comments-parser/commit/9787587a5d1725994df1b726e3318f79d0e6b284))
+
+
+
 # [5.0.0](https://github.com/youngjuning/interface-comments-parser/compare/v4.0.0...v5.0.0) (2020-12-10)
 
 
