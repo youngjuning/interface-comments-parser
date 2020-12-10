@@ -1,3 +1,12 @@
+# [4.0.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.5.0...v4.0.0) (2020-12-10)
+
+
+### Bug Fixes
+
+* import * as fs from 'fs'; ([c9fd13f](https://github.com/youngjuning/interface-comments-parser/commit/c9fd13f480582a1ef03bb82e92fa265c22f919a6))
+
+
+
 # [3.5.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.4...v3.5.0) (2020-12-10)
 
 
