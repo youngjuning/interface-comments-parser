@@ -7,7 +7,7 @@
 
 ### Bug Fixes
 
-* remove releace | ([6fb3327](https://github.com/youngjuning/interface-comments-parser/commit/6fb3327))
+* remove releace | ([6fb3327](https://github.com/youngjuning/interface-comments-parser/commit/6fb332715034e7bb12eb78080b7a9e4f8e31b319))
 
 
 
@@ -20,7 +20,7 @@
 
 ### Features
 
-* @youngjuning/interface-comments-parser ([db22f31](https://github.com/youngjuning/interface-comments-parser/commit/db22f31))
+* @youngjuning/interface-comments-parser ([db22f31](https://github.com/youngjuning/interface-comments-parser/commit/db22f3112918ebb9de7460d81704410091372e80))
 
 
 
@@ -29,7 +29,7 @@
 
 ### Features
 
-* support parse class ([4c4974d](https://github.com/youngjuning/interface-comments-parser/commit/4c4974d))
+* support parse class ([4c4974d](https://github.com/youngjuning/interface-comments-parser/commit/4c4974d02925c6b807a1f7cf6b781f164b3c98af))
 
 
 
@@ -38,7 +38,7 @@
 
 ### Bug Fixes
 
-* throw error when comment no dot containt any meta. ([3eec25a](https://github.com/youngjuning/interface-comments-parser/commit/3eec25a))
+* throw error when comment no dot containt any meta. ([3eec25a](https://github.com/youngjuning/interface-comments-parser/commit/3eec25a8fd5e940853e06b9f5458bca23172308b))
 
 
 
@@ -47,7 +47,7 @@
 
 ### Features
 
-* redesign api ([9944217](https://github.com/youngjuning/interface-comments-parser/commit/9944217))
+* redesign api ([9944217](https://github.com/youngjuning/interface-comments-parser/commit/994421740e2638abe152c041391be2668f3d62ff))
 
 
 

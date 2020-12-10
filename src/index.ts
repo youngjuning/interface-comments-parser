@@ -5,7 +5,7 @@ import {
   isExportNamedDeclaration,
   isClassDeclaration
 } from '@babel/types';
-import * as fs from 'fs';
+import * as fs from 'fs-extra';
 import { parseTsInterfaceDeclaration, parseClassDeclaration } from './parser';
 
 export function parse(filePath: string, name: string): IField[] {
