@@ -1,3 +1,12 @@
+# [3.4.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.0...v3.4.0) (2020-12-10)
+
+
+### Features
+
+* use read-file-safe replace fs-extra ([bc64a1c](https://github.com/youngjuning/interface-comments-parser/commit/bc64a1c418173904df1bd0625a19b8153b077ace))
+
+
+
 # [3.3.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.2.1...v3.3.0) (2020-12-10)
 
 
