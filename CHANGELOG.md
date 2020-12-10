@@ -1,3 +1,12 @@
+## [3.3.2](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.1...v3.3.2) (2020-12-10)
+
+
+### Features
+
+* use fs-es6 ([0117f3e](https://github.com/youngjuning/interface-comments-parser/commit/0117f3ec7a814f515d7ef8d1784955fb6ab50e4b))
+
+
+
 ## [3.3.1](https://github.com/youngjuning/interface-comments-parser/compare/v3.4.0...v3.3.1) (2020-12-10)
 
 
