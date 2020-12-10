@@ -27,6 +27,23 @@ export function parse(filePath: string, name: string): IField[] {
   return null;
 }
 
+export function parseAllInterface(filePath) {
+  const ast = babelParser.parse(fs.readFileSync(filePath).toString(), {
+      sourceType: 'module',
+      plugins: ['typescript', 'classProperties']
+  });
+  const result = {};
+  for (let node of ast.program.body) {
+      if (isExportNamedDeclaration(node)) {
+          node = node.declaration;
+      }
+      if (isTSInterfaceDeclaration(node)) {
+          result[node.id.name] = parseTsInterfaceDeclaration(node);
+      }
+  }
+  return result;
+}
+
 export function getFieldMeta(field: IField, language?: string): IMeta {
   const { meta, name, optional, types } = field;
   const baseInfo = {
