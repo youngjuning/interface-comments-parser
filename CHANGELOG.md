@@ -1,3 +1,7 @@
+# [3.4.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.4...v3.4.0) (2020-12-10)
+
+
+
 ## [3.3.4](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.3...v3.3.4) (2020-12-10)
 
 
