@@ -1,3 +1,12 @@
+# [3.3.0](https://github.com/youngjuning/interface-comments-parser/compare/v3.2.1...v3.3.0) (2020-12-10)
+
+
+### Features
+
+* replace fs to fs-extra ([1419b6f](https://github.com/youngjuning/interface-comments-parser/commit/1419b6f126228dd4257db4b373b05505af4d1030))
+
+
+
 ## [3.2.1](https://github.com/youngjuning/interface-comments-parser/compare/v3.2.0...v3.2.1) (2020-12-09)
 
 
