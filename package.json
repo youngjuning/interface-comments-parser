@@ -1,7 +1,7 @@
 {
   "name": "@youngjuning/interface-comments-parser",
   "description": "parser typescript interface comments",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "author": "DiamondYuan",
   "contributors": [
     {
