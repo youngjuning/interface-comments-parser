@@ -5,23 +5,43 @@ import {
   isExportNamedDeclaration,
   isClassDeclaration
 } from '@babel/types';
-import { read } from 'fs-sync-utils';
+import fs from 'fs';
 import { parseTsInterfaceDeclaration, parseClassDeclaration } from './parser';
 
-export function parse(filePath: string, name: string): IField[] {
-  const ast = babelParser.parse(read(filePath).toString(), {
-    sourceType: 'module',
-    plugins: ['typescript', 'classProperties']
-  });
-  for (let node of ast.program.body) {
-    if (isExportNamedDeclaration(node)) {
-      node = node.declaration;
-    }
-    if (isTSInterfaceDeclaration(node) && node.id.name === name) {
-      return parseTsInterfaceDeclaration(node);
-    }
-    if (isClassDeclaration(node) && node.id.name === name) {
-      return parseClassDeclaration(node);
+export function parse(filePath: string, name: string, isWeb: boolean): IField[] {
+  if (isWeb) {
+    require('fs-web').readString(filePath).then((fileStr) => {
+      const ast = babelParser.parse(fileStr, {
+        sourceType: 'module',
+        plugins: ['typescript', 'classProperties']
+      });
+      for (let node of ast.program.body) {
+        if (isExportNamedDeclaration(node)) {
+          node = node.declaration;
+        }
+        if (isTSInterfaceDeclaration(node) && node.id.name === name) {
+          return parseTsInterfaceDeclaration(node);
+        }
+        if (isClassDeclaration(node) && node.id.name === name) {
+          return parseClassDeclaration(node);
+        }
+      }
+    });
+  } else {
+    const ast = babelParser.parse(fs.readFileSync(filePath).toString(), {
+      sourceType: 'module',
+      plugins: ['typescript', 'classProperties']
+    });
+    for (let node of ast.program.body) {
+      if (isExportNamedDeclaration(node)) {
+        node = node.declaration;
+      }
+      if (isTSInterfaceDeclaration(node) && node.id.name === name) {
+        return parseTsInterfaceDeclaration(node);
+      }
+      if (isClassDeclaration(node) && node.id.name === name) {
+        return parseClassDeclaration(node);
+      }
     }
   }
   return null;
