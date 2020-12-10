@@ -1,3 +1,12 @@
+## [3.3.3](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.2...v3.3.3) (2020-12-10)
+
+
+### Features
+
+* use fs-sync-utils ([2e873b0](https://github.com/youngjuning/interface-comments-parser/commit/2e873b0b1375c0f3e80b44ad09c9b78d1522a1eb))
+
+
+
 ## [3.3.2](https://github.com/youngjuning/interface-comments-parser/compare/v3.3.1...v3.3.2) (2020-12-10)
 
 
